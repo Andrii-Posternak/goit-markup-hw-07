@@ -440,7 +440,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn--active, .btn:hover, .btn:focus {
+.btn:hover, .btn:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -691,18 +691,18 @@ img {
   margin-top: 20px;
 }
 
-.address__item {
+.address__link {
   color: #ffffff;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__item--gray {
+.address__link--gray {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
-.address__item--gray:hover, .address__item--gray:focus {
+.address__link--gray:hover, .address__link--gray:focus {
   color: #2196f3;
 }
 

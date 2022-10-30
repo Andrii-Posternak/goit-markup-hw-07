@@ -5,14 +5,14 @@
   margin-top: 20px;
 }
 
-.address__item {
+.address__link {
   color: $color-main;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__item--gray {
+.address__link--gray {
   color: $color-text-contact;
   margin-top: 9px;
 
